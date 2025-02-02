@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fanta Brasil</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <img src="./imgs/fanta-logo.png" alt="Fanta Logo" class="background-logo" />
+
+  <!-- Container esquerdo com informações nutricionais e ingredientes -->
+  <div class="left" id="left-container">
+    <div class="header">
+      <img src="./imgs/fanta-logo.png" alt="logo" id="logo" />
+      <ul>
+        <li><a href="#">FANTA</a></li>
+        <li><a href="#">NOSSOS PRODUTOS</a></li>
+        <li><a href="#">LOCAIS</a></li>
+      </ul>
+    </div>
+    <div class="info" style="color: #fff;">
+      <h2 id="nutri" style="margin-bottom: 20px; color: #fff;">Informação Nutricional</h2>
+      <div id="div">
+        <img src="./imgs/carbo.png" alt="carbo" style="width: 60px; height: 50px; background-color:transparent;" />
+        <div id="carboidrato">
+          <p style="margin-bottom: 10px;">CARBS</p>
+          <p id="carboidrato-text">8g / 350ml</p>
+        </div>
+        <img src="./imgs/fire-heart.png" alt="calorias" style="width: 70px; height: 60px;" />
+        <div id="calorias">
+          <p style="margin-bottom: 10px;">CALORIAS</p>
+          <p id="calorias-text">5g</p>
+        </div>
+      </div>
+      <h2 style="margin-top: 50px; color: #fff;">Ingredientes</h2>
+      <div id="ingredientes">
+        <div class="ingredi">
+          <img src="./imgs/1404885.png" alt="water" style="width: 60px;margin-left: 22px;margin-top: 20px;" />
+          <p style="text-align: center;">ÁGUA <br>GASEIFICADA</p>
+        </div>
+        <div class="ingredi">
+          <img src="./imgs/sugar.png" alt="sugar" style="width: 60px;" />
+          <p>AÇÚCAR</p>
+        </div>
+        <div class="ingredi">
+          <img id="fruit-icon" src="./imgs/orange.png" alt="fruit" style="width: 60px;" />
+          <p id="fruit-name">LARANJA</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="center">
+    <img id="can-img" src="./imgs/fanta-caju.png" alt="Fanta" />
+  </div>
+
+  <div class="right">
+    <div class="header-right">
+      <ul>
+        <li><a href="#">ENTRE EM CONTATO</a></li>
+      </ul>
+      <a href="#" id="but">SITE OFICIAL</a>
+    </div>
+
+    <div class="content">
+      <div class="texts">
+        <p id="title_">Laranja</p>
+        <h3 id="product-title" style="font-weight: 500; font-size: 25px;">FANTA LARANJA 350ML</h3>
+        <p id="product-description" style="width: 450px; font-size: 19px; margin-top: 10px; margin-bottom: 20px;">
+          Borbulhante e popular, é o segundo produto da companhia mais vendido no Brasil. Feito com suco de frutas.
+        </p>
+
+        <h3 style="font-size: 25px; color: #222222; font-weight: 500;margin-bottom: 10px;">DISPONÍVEL EM:</h3>
+        <button style="padding: 10px; width: 100px; border: 1px solid orangered; border-radius: 25px; height: 50px; font-size: 17px;">350ml</button>
+        <button id="comprar">ONDE COMPRAR</button>  
+      </div>
+    </div>
+
+    <!-- Botões de navegação (setas) no canto inferior direito -->
+    <div class="carrossel">
+      <button id="prevBtn">Anterior</button>
+      <button id="nextBtn">Próximo</button>
+    </div>
+    <div class="background-logo">
+    </div>
+  </div>
+
+  
+
+  <script src="./scripts.js"></script>
+</body>
+</html>
