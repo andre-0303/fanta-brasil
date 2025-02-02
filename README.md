@@ -6,7 +6,7 @@ Esse é um projeto de um slider das latinhas da Fanta Brasil. Fiz esse com um in
 | -------------  | --- |
 | :sparkles: Nome        | **Fanta Brasil**
 | :label: Tecnologias | HTML, CSS, JavaScript
-| :rocket: URL         | 
+| :rocket: URL         |  [Link do projeto](https://andre-0303.github.io/fanta-brasil/)
 
 ## Wireframes do projeto
 [Telas Figma](https://www.figma.com/design/M8qWjNaxgZfzKDL4QHYiyD/fanta?node-id=0-1&p=f&t=8ayHM7hESdtUMmGW-0)
